@@ -109,7 +109,7 @@ function answerChoice(choiceIndex) {
         ch4.classList.add('hide')
         document.getElementById('question').classList.add('hide')
         document.getElementById('timer').classList.add('hide')
-        return;
+        eturn;
     }
     nextQuestion()
 }
