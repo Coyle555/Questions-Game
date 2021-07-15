@@ -111,5 +111,5 @@ function answerChoice(choiceIndex) {
         document.getElementById('timer').classList.add('hide')
         return;
     }
-    updateQuestion(currentQuestion)
+    nextQuestion()
 }
