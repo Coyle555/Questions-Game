@@ -1,30 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css" />
-    <title>Questions Game</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-    <div class='container'>
-        <div id='question-container'>
-            <div id= 'timer'></div>
-            <div id='question'></div>
-            <div id='answer-button' class='answ-button'>
-                <button id='button1' class = 'ab'> Choice 1</button>
-                <button id='button2' class = 'ab'> Choice 2</button>
-                <button id='button3' class = 'ab'> Choice 3</button>
-                <button id='button4' class = 'ab'> Choice 4</button>
-            </div>
-            <div id = score></div>
-        <div class='main-buttons'>
-            <button id='start' class='start-button button'>Begin</button>
-        </div>
+  <nav class="orange" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" class="brand-logo">Coding Quiz</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="https://github.com/Coyle555">My Github</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
-    </div> 
-    <div id = score></div>
-    <script src="./assets/script.js"></script>
-</body>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Questions Game</h1>
+      <div id='question-container' class='row center'>
+          <div id= 'timer'></div>
+          <div id='question'></div>
+          <div id='answer-button' class='answ-button'>
+              <button id='button1' class = 'btn-large waves-effect waves-light orange start-button button'> Choice 1</button>
+              <button id='button2' class = 'btn-large waves-effect waves-light orange start-button button'> Choice 2</button>
+              <button id='button3' class = 'btn-large waves-effect waves-light orange start-button button'> Choice 3</button>
+              <button id='button4' class = 'btn-large waves-effect waves-light orange start-button button'> Choice 4</button>
+          </div>
+      <br></br>
+      <div class="row center">
+        <button id="start" class="btn-large waves-effect waves-light orange start-button button">Start Game</button>
+      </div>
+      <br><br>
+      <div id = score></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons"></i></h2>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons"></i></h2>
+            <h5 class="center"></h5>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons"></i></h2>
+            <h5 class="center"></h5>
+            <p class="light">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </div>
+  </div>
+  </div>
+  <br><br>
+  <br><br>
+  <br><br>
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text"><strong>About</strong></h5>
+          <p class="grey-text text-lighten-4">A game consisting of different questions. Click start and see how you do!</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3">Carson Coyle</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  </body>
 </html>
